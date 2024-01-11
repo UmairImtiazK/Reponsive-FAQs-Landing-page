@@ -1,0 +1,23 @@
+
+
+@font-face {
+  font-family: WorkSans;
+  src: url(/src/assets/fonts/WorkSans-VariableFont_wght.ttf),
+  url(/src/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf),
+  url(/src/assets/fonts/static/WorkSans-Bold.ttf),
+  url(/src/assets/fonts/static/WorkSans-Regular.ttf),
+  url(/src/assets/fonts/static/WorkSans-SemiBold.ttf);
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  font-family: WorkSans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
